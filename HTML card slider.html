@@ -6,8 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Slider</title>
+
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="SwiperBundle.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS Card Slider.css">
 </head>
 <body>
-    
+    <div class="container swiper">
+        <div class="slider-container">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="showImg/fullDev.jpg" alt="">
+                    </div>
+                    <div class="profile-details">
+                        <img src="profile/profile1.jpg" alt="">
+                        <div class="name-job">
+                            <h3 class="name">Robert Ale</h3>
+                            <h4 class="job">Backend Developer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="showImg/photographer.jpg" alt="">
+                    </div>
+                    <div class="profile-details">
+                        <img src="profile/profile2.jpg" alt="">
+                        <div class="name-job">
+                            <h3 class="name">Becky Arnold</h3>
+                            <h4 class="job">Photographer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="showImg/blogger.jpg" alt="">
+                    </div>
+                    <div class="profile-details">
+                        <img src="profile/profile3.jpg" alt="">
+                        <div class="name-job">
+                            <h3 class="name">John Moses</h3>
+                            <h4 class="job">FullStack Developer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="showImg/dataAna.jpg" alt="">
+                    </div>
+                    <div class="profile-details">
+                        <img src="profile/profile4.jpg" alt="">
+                        <div class="name-job">
+                            <h3 class="name">Jessica Alba</h3>
+                            <h4 class="job">Data Analyst</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-box">
+                        <img src="showImg/appDev.jpg" alt="">
+                    </div>
+                    <div class="profile-details">
+                        <img src="profile/profile5.jpg" alt="">
+                        <div class="name-job">
+                            <h3 class="name">Alexis Mark</h3>
+                            <h4 class="job">App Developer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script src="SwiperBundle.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
